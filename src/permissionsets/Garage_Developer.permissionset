@@ -125,6 +125,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ExampleTrigger</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ForgotPasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -201,6 +205,16 @@
         <enabled>false</enabled>
     </classAccesses>
     <description>Permission Set generated for access to custom object Vehicle for the app Garage</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>APEX_Customer__c.APEX_Active__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>APEX_Customer__c.APEX_Customer_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
