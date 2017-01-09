@@ -6,8 +6,8 @@ trigger AddRelatedRecord on Account (after insert, after update) {
         [SELECT Id,(SELECT Id FROM Opportunities) FROM Account WHERE
          Id IN :Trigger.New]);
     
-	// Add an opportunity for each account if it doesn't already have one.
-	// Iterate through each account
+    // Add an opportunity for each account if it doesn't already have one.
+    // Iterate through each account
     for(Account a : Trigger.New) {
         System.debug('acctsWithOpps.get(a.Id).Opportunities.size()='
 + acctsWithOpps.get(a.Id).Opportunities.size());
