@@ -204,6 +204,14 @@
         <apexClass>TestLightningConnectQuickstart</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>TestVerifyDate</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>VerifyDate</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <description>Permission Set generated for access to custom object Vehicle for the app Garage</description>
     <fieldPermissions>
         <editable>false</editable>
